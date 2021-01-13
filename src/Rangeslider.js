@@ -298,7 +298,7 @@ class Slider extends Component {
     const coords = this.coordinates(position)
     const fillStyle = { [dimension]: `${coords.fill}px` }
     const handleStyle = { [direction]: `${coords.handle}px` }
-    let showTooltip = tooltip && active
+    let showTooltip = true
 
     let labelItems = []
     let labelKeys = Object.keys(labels)
